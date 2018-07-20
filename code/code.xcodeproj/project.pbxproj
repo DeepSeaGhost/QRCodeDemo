@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACA504F21018615001A5261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA504E21018615001A5261 /* AppDelegate.m */; };
+		EACA505221018615001A5261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA505121018615001A5261 /* ViewController.m */; };
+		EACA505721018615001A5261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACA505621018615001A5261 /* Assets.xcassets */; };
+		EACA505D21018615001A5261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA505C21018615001A5261 /* main.m */; };
+		EACA507C210187A3001A5261 /* PYHCodeGeneratorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA5068210187A3001A5261 /* PYHCodeGeneratorVC.m */; };
+		EACA507D210187A3001A5261 /* PYHFilterSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA506A210187A3001A5261 /* PYHFilterSupport.m */; };
+		EACA507E210187A3001A5261 /* PYHScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA506C210187A3001A5261 /* PYHScanCodeVC.m */; };
+		EACA507F210187A3001A5261 /* PYHZBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA506E210187A3001A5261 /* PYHZBarVC.m */; };
+		EACA5080210187A3001A5261 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EACA5070210187A3001A5261 /* libzbar.a */; };
+		EACA5083210187F9001A5261 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EACA5082210187F9001A5261 /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EACA504A21018615001A5261 /* code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = code.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA504D21018615001A5261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EACA504E21018615001A5261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EACA505021018615001A5261 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EACA505121018615001A5261 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EACA505621018615001A5261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACA505B21018615001A5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACA505C21018615001A5261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACA5067210187A3001A5261 /* PYHCodeGeneratorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHCodeGeneratorVC.h; sourceTree = "<group>"; };
+		EACA5068210187A3001A5261 /* PYHCodeGeneratorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHCodeGeneratorVC.m; sourceTree = "<group>"; };
+		EACA5069210187A3001A5261 /* PYHFilterSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHFilterSupport.h; sourceTree = "<group>"; };
+		EACA506A210187A3001A5261 /* PYHFilterSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHFilterSupport.m; sourceTree = "<group>"; };
+		EACA506B210187A3001A5261 /* PYHScanCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHScanCodeVC.h; sourceTree = "<group>"; };
+		EACA506C210187A3001A5261 /* PYHScanCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHScanCodeVC.m; sourceTree = "<group>"; };
+		EACA506D210187A3001A5261 /* PYHZBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHZBarVC.h; sourceTree = "<group>"; };
+		EACA506E210187A3001A5261 /* PYHZBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHZBarVC.m; sourceTree = "<group>"; };
+		EACA5070210187A3001A5261 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		EACA5071210187A3001A5261 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		EACA5072210187A3001A5261 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		EACA5073210187A3001A5261 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		EACA5074210187A3001A5261 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		EACA5075210187A3001A5261 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		EACA5076210187A3001A5261 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		EACA5077210187A3001A5261 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		EACA5078210187A3001A5261 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		EACA5079210187A3001A5261 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		EACA507A210187A3001A5261 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		EACA507B210187A3001A5261 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		EACA5082210187F9001A5261 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACA504721018615001A5261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA5083210187F9001A5261 /* libiconv.tbd in Frameworks */,
+				EACA5080210187A3001A5261 /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACA504121018615001A5261 = {
+			isa = PBXGroup;
+			children = (
+				EACA504C21018615001A5261 /* code */,
+				EACA504B21018615001A5261 /* Products */,
+				EACA5081210187F9001A5261 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EACA504B21018615001A5261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACA504A21018615001A5261 /* code.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACA504C21018615001A5261 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				EACA5066210187A3001A5261 /* QRCode */,
+				EACA504D21018615001A5261 /* AppDelegate.h */,
+				EACA504E21018615001A5261 /* AppDelegate.m */,
+				EACA505021018615001A5261 /* ViewController.h */,
+				EACA505121018615001A5261 /* ViewController.m */,
+				EACA505621018615001A5261 /* Assets.xcassets */,
+				EACA505B21018615001A5261 /* Info.plist */,
+				EACA505C21018615001A5261 /* main.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		EACA5066210187A3001A5261 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				EACA5067210187A3001A5261 /* PYHCodeGeneratorVC.h */,
+				EACA5068210187A3001A5261 /* PYHCodeGeneratorVC.m */,
+				EACA5069210187A3001A5261 /* PYHFilterSupport.h */,
+				EACA506A210187A3001A5261 /* PYHFilterSupport.m */,
+				EACA506B210187A3001A5261 /* PYHScanCodeVC.h */,
+				EACA506C210187A3001A5261 /* PYHScanCodeVC.m */,
+				EACA506D210187A3001A5261 /* PYHZBarVC.h */,
+				EACA506E210187A3001A5261 /* PYHZBarVC.m */,
+				EACA506F210187A3001A5261 /* ZBarSDK */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		EACA506F210187A3001A5261 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EACA5070210187A3001A5261 /* libzbar.a */,
+				EACA5071210187A3001A5261 /* zbar.h */,
+				EACA5072210187A3001A5261 /* ZBarCameraSimulator.h */,
+				EACA5073210187A3001A5261 /* ZBarCaptureReader.h */,
+				EACA5074210187A3001A5261 /* ZBarHelpController.h */,
+				EACA5075210187A3001A5261 /* ZBarImage.h */,
+				EACA5076210187A3001A5261 /* ZBarImageScanner.h */,
+				EACA5077210187A3001A5261 /* ZBarReaderController.h */,
+				EACA5078210187A3001A5261 /* ZBarReaderView.h */,
+				EACA5079210187A3001A5261 /* ZBarReaderViewController.h */,
+				EACA507A210187A3001A5261 /* ZBarSDK.h */,
+				EACA507B210187A3001A5261 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		EACA5081210187F9001A5261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EACA5082210187F9001A5261 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACA504921018615001A5261 /* code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACA506021018615001A5261 /* Build configuration list for PBXNativeTarget "code" */;
+			buildPhases = (
+				EACA504621018615001A5261 /* Sources */,
+				EACA504721018615001A5261 /* Frameworks */,
+				EACA504821018615001A5261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = code;
+			productName = code;
+			productReference = EACA504A21018615001A5261 /* code.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACA504221018615001A5261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ghost;
+				TargetAttributes = {
+					EACA504921018615001A5261 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EACA504521018615001A5261 /* Build configuration list for PBXProject "code" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACA504121018615001A5261;
+			productRefGroup = EACA504B21018615001A5261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACA504921018615001A5261 /* code */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACA504821018615001A5261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA505721018615001A5261 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACA504621018615001A5261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA505221018615001A5261 /* ViewController.m in Sources */,
+				EACA507D210187A3001A5261 /* PYHFilterSupport.m in Sources */,
+				EACA507E210187A3001A5261 /* PYHScanCodeVC.m in Sources */,
+				EACA505D21018615001A5261 /* main.m in Sources */,
+				EACA504F21018615001A5261 /* AppDelegate.m in Sources */,
+				EACA507F210187A3001A5261 /* PYHZBarVC.m in Sources */,
+				EACA507C210187A3001A5261 /* PYHCodeGeneratorVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EACA505E21018615001A5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACA505F21018615001A5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACA506121018615001A5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKEQ7F3H7J;
+				INFOPLIST_FILE = code/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/code/QRCode/ZBarSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghost.code;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EACA506221018615001A5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKEQ7F3H7J;
+				INFOPLIST_FILE = code/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/code/QRCode/ZBarSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghost.code;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACA504521018615001A5261 /* Build configuration list for PBXProject "code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA505E21018615001A5261 /* Debug */,
+				EACA505F21018615001A5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACA506021018615001A5261 /* Build configuration list for PBXNativeTarget "code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA506121018615001A5261 /* Debug */,
+				EACA506221018615001A5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACA504221018615001A5261 /* Project object */;
+}
